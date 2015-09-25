@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+    <id>7775</id>
+    <defaultcontrol>13</defaultcontrol>
+    <allowoverlay>no</allowoverlay>
+    <define>#play.progressbar.percentage:#percentage</define>
+    <define>#play.progressbar.currentplaytime:#currentplaytime</define>
+    <define>#play.progressbar.currentremaining:#currentremaining</define>
+    <controls>
+        <import>common.play.fullscreen.xml</import>
+        <control>
+            <id>300</id>
+            <description>background botton</description>
+            <type>image</type>
+            <visible>[player.rewinding|Control.IsVisible(10)|player.forwarding|player.paused]+!window.isosdvisible</visible>
+            <posX>150</posX>
+            <posY>582</posY>
+            <width>1005</width>
+            <height>139</height>
+            <texture>OSD-Smalbackground.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+        </control>
+        <control>
+            <id>36</id>
+            <description>Movie Name</description>
+            <type>fadelabel</type>
+            <visible>[player.rewinding|Control.IsVisible(10)|player.forwarding|player.paused]+!window.isosdvisible</visible>
+            <posX>180</posX>
+            <posY>595</posY>
+            <width>515</width>
+            <height>23</height>
+            <font>font14</font>
+            <textcolor>ffffffff</textcolor>
+            <label>#Play.Current.Title</label>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+        </control>
+        <control>
+            <description>Current Time Info</description>
+            <type>label</type>
+            <visible>[player.rewinding|Control.IsVisible(10)|player.forwarding|player.paused]+!window.isosdvisible</visible>
+            <posX>1125</posX>
+            <posY>597</posY>
+            <font>font14</font>
+            <textcolor>ffffffff</textcolor>
+            <align>RIGHT</align>
+            <label>#time</label>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+        </control>
+        <control>
+            <description>progress bar background</description>
+            <type>image</type>
+            <visible>window.isosdvisible|player.paused|player.rewinding|player.forwarding|Control.IsVisible(10)</visible>
+            <posX>185</posX>
+            <posY>646</posY>
+            <width>825</width>
+            <height>25</height>
+            <texture>osd_progress_background.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+        </control>
+        <control>
+            <id>105</id>
+            <description>TV Progress Bar</description>
+            <type>tvprogress</type>
+            <visible>window.isosdvisible|player.paused|player.rewinding|player.forwarding|Control.IsVisible(10)</visible>
+            <posX>180</posX>
+            <posY>647</posY>
+            <width>830</width>
+            <height>25</height>
+            <toptexture>osd_progress_indicator.png</toptexture>
+            <TextureOffsetY>22</TextureOffsetY>
+            <bottomtexture>-</bottomtexture>
+            <texturetick>-</texturetick>
+            <lefttexture>-</lefttexture>
+            <midtexture>-</midtexture>
+            <righttexture>-</righttexture>
+            <logotexture>-</logotexture>
+            <fillbackgroundtexture>-</fillbackgroundtexture>
+            <fillbgxoff>0</fillbgxoff>
+            <fillbgyoff>0</fillbgyoff>
+            <filltexture1>osd_progress_mid.png</filltexture1>
+            <filltexture2>osd_progress_mid_red.png</filltexture2>
+            <filltexture3>osd_progress_mid_orange.png</filltexture3>
+            <fillheight>20</fillheight>
+            <label>#percentage</label>
+            <label1>#percentage</label1>
+            <label2>#TV.Record.percent3</label2>
+            <font>font13</font>
+            <textcolor>FF000000</textcolor>
+        </control>
+        <control>
+            <description>Start Time Info</description>
+            <type>label</type>
+            <visible>window.isosdvisible|player.paused|player.rewinding|player.forwarding|Control.IsVisible(10)</visible>
+            <posX>205</posX>
+            <posY>691</posY>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <align>CENTER</align>
+            <label>#play.progressbar.currentplaytime</label>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+        </control>
+        <control>
+            <description>End Time Info</description>
+            <type>label</type>
+            <visible>window.isosdvisible|player.paused|player.rewinding|player.forwarding|Control.IsVisible(10)</visible>
+            <posX>965</posX>
+            <posY>691</posY>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <align>CENTER</align>
+            <label>#play.progressbar.currentremaining</label>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+        </control>
+        <control>
+            <description>pause image</description>
+            <type>image</type>
+            <visible>player.paused+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video-pause.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <description>2x image</description>
+            <type>image</type>
+            <visible>player.forwarding2x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video+2x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <description>4x image</description>
+            <type>image</type>
+            <visible>player.forwarding4x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video+4x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <description>8x image</description>
+            <type>image</type>
+            <visible>player.forwarding8x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video+8x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <description>16x image</description>
+            <type>image</type>
+            <visible>player.forwarding16x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video+16x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <description>32x image</description>
+            <type>image</type>
+            <visible>player.forwarding32x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video+32x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <id>23</id>
+            <description>- 2x image</description>
+            <type>image</type>
+            <visible>player.rewinding2x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video-2x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <id>24</id>
+            <description>- 4x image</description>
+            <type>image</type>
+            <visible>player.rewinding4x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video-4x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <id>25</id>
+            <description>- 8x image</description>
+            <type>image</type>
+            <visible>player.rewinding8x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video-8x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <id>26</id>
+            <description>- 16x image</description>
+            <type>image</type>
+            <visible>player.rewinding16x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video-16x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <id>27</id>
+            <description>- 32x image</description>
+            <type>image</type>
+            <visible>player.rewinding32x+!Control.IsVisible(10)</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>530</posX>
+            <posY>680</posY>
+            <width>111</width>
+            <height>20</height>
+            <texture>video-32x.png</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+        <control>
+            <id>0</id>
+            <description>TV Logo</description>
+            <type>image</type>
+            <visible>[player.rewinding|Control.IsVisible(10)|player.forwarding|player.paused]+!window.isosdvisible</visible>
+            <posX>1050</posX>
+            <posY>635</posY>
+            <width>70</width>
+            <height>70</height>
+            <texture>#Play.Current.Thumb</texture>
+            <animation effect="Fade" time="250">VisibleChange</animation>
+            <animation effect="Fade" time="250">WindowOpen</animation>
+            <animation effect="Fade" time="150">WindowOpen</animation>
+            <keepaspectratio>yes</keepaspectratio>
+            <centered>yes</centered>
+        </control>
+        <control>
+            <id>502</id>
+            <type>image</type>
+            <visible>no</visible>
+            <colordiffuse>ffffffff</colordiffuse>
+            <posX>935</posX>
+            <posY>120</posY>
+            <texture>video.action.forbidden.png</texture>
+            <animation effect="Fade" time="150">VisibleChange</animation>
+            <colorkey>0</colorkey>
+        </control>
+    </controls>
+</window>

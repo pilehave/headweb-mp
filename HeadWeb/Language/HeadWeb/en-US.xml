@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- HeadWeb translation file -->
+<!-- English (US) -->
+<!-- Note: English is the fallback for any strings not found in other languages -->
+<!-- Contributed by pilehave 19. december 2011 -->
+<strings>
+
+    <!-- A  -->
+	<string Field="AddToFavorites">Add to favorites</string>
+	<string Field="AddToFavoritesText">The movie "{0}" was added to your favorites</string>
+	<string Field="AreYouSure">Are you sure you wish to rent this movie?</string>
+    
+    <!-- C  -->
+	
+	<!-- B  -->
+	<string Field="BestSellers">Best sellers</string>
+	<string Field="Buffered">buffered</string>
+    
+    <!-- D  -->
+
+    <!-- E  -->
+	<string Field="Expired">Expired</string>
+	<string Field="EnterPinCode">Enter pincode</string>
+	<string Field="EnterSMSCode">Enter SMS code</string>
+	<string Field="EnterUsername">Enter Username</string>
+    <string Field="EnterPassword">Enter Password</string>
+	
+    <!-- F  -->
+	<string Field="Favorites">Favorites</string>
+	
+    <!-- G  -->
+	<string Field="Genres">Genres</string>
+
+    <!-- H  -->
+
+    <!-- I  -->
+	<string Field="InvalidUsernameOrPassword">Invalid username or password</string>
+	
+    <!-- L  -->
+	<string Field="LogInToHeadWeb">Login to HeadWeb</string>
+	<string Field="LogIn">Login</string>
+	<string Field="LogOut">Logout</string>
+	
+    <!-- M  -->
+	<string Field="MyRentals">My Rentals</string>
+	<string Field="MovieWillStart">Movie will start when buffering is done</string>
+
+    <!-- N  -->
+	<string Field="NotLoggedIn">Not logged in</string>
+	<string Field="Newest">Newest</string>
+
+    <!-- O  -->
+	<string Field="OnlyFreeMovies">Only free movies</string>
+	<string Field="OnlyHDMovies">Only HD movies</string>
+	
+    <!-- P  -->
+	<string Field="Password">Password</string>
+	<string Field="PinCode">Pincode</string>
+	<string Field="PinCodeIncorrect">Pincode incorrect</string>
+	<string Field="Price">Price</string>
+
+    <!-- R  -->
+	<string Field="RateMovie">Rate movie</string>
+	<string Field="RentMovie">Rent movie</string>
+	<string Field="RentMovieBySMS">Rent movie by SMS</string>
+	<string Field="RemoveFromFavorites">Remove from favorites</string>
+	<string Field="RemoveFromFavoritesText">The movie "{0}" was removed from your favorites</string>
+	<string Field="RentalFailed">Rental failed</string>
+	<string Field="RentalSuccessful">Rental successful</string>
+
+    <!-- S  -->
+	<string Field="Search">Search</string>
+	<string Field="Set">Set</string>
+	<string Field="SMSPurchase1">SMS Purchase</string>
+	<string Field="SMSPurchase2">You already purchased this movie,</string>
+	<string Field="SMSPurchase3">to activate it, enter the key</string>
+	<string Field="SMSPurchase4">you received in the SMS.</string>
+	<string Field="SMSPurchase5">SMS Purchase, {0}.</string>
+	<string Field="SMSPurchase6">To purchase this movie, send</string>
+	<string Field="SMSPurchase7">"{0}" to the number "{1}"</string>
+	<string Field="SMSPurchase8">You will recieve a SMS with a code.</string>
+	<string Field="SelectBitrate">Select bitrate</string>
+    
+    <!-- T -->
+	<string Field="ToPurchaseThisMovie">to purchase this movie</string>
+	<string Field="Title">Title</string>
+
+    <!-- U -->
+	<string Field="Username">Username</string>
+    
+    <!-- V -->
+
+    <!-- W -->
+	<string Field="WatchPreview">Watch preview</string>
+	<string Field="WatchMovie">Watch movie</string>
+	<string Field="WatchTrailer">Watch trailer</string>
+
+    <!-- Y -->
+</strings>

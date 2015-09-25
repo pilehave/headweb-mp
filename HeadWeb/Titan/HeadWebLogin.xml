@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+	<id>7778</id>
+	<defaultcontrol>8</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+	<controls>
+		<import>common.dialog.xml</import>
+		
+		<control>
+			<description>Username value</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>870</posX>
+			<posY>592</posY>
+			<width>250</width>
+			<label>#HeadWeb.Login.UserName</label>
+      <animation effect="Fade" time="250">WindowOpen</animation>
+      <animation effect="zoom" delay="100" tween="elastic" easing="out" start="95,95" end="100,100" center="683,384" time="550">WindowOpen</animation>
+		</control>
+		
+		<control>
+			<description>Set username button</description>
+			<type>button</type>
+			<id>8</id>
+			<posX>620</posX>
+			<posY>580</posY>
+			<textXOff>15</textXOff>
+			<textYOff>12</textYOff>
+			<width>678</width>
+			<height>68</height>
+			<label>#HeadWeb.Translation.Username.Label:</label>
+			<onleft>8</onleft>
+			<onright>8</onright>
+			<onup>8</onup>
+			<ondown>9</ondown>
+			<textureFocus>listcontrol_item_selected_small.png</textureFocus>
+				<textureNoFocus>listcontrol_item_small.png</textureNoFocus>
+      <animation effect="Fade" time="250">WindowOpen</animation>
+      <animation effect="zoom" delay="100" tween="elastic" easing="out" start="95,95" end="100,100" center="683,384" time="550">WindowOpen</animation>
+		</control>
+		
+		<control>
+			<description>Password value</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>870</posX>
+			<posY>661</posY>
+			<width>250</width>
+			<label>#HeadWeb.Login.Password</label>
+      <animation effect="Fade" time="250">WindowOpen</animation>
+      <animation effect="zoom" delay="100" tween="elastic" easing="out" start="95,95" end="100,100" center="683,384" time="550">WindowOpen</animation>
+		</control>
+		
+		<control>
+			<description>Set password button</description>
+			<type>button</type>
+			<id>9</id>
+			<posX>620</posX>
+			<posY>649</posY>
+			<textXOff>15</textXOff>
+			<textYOff>12</textYOff>
+			<width>678</width>
+			<height>68</height>
+			<label>#HeadWeb.Translation.Password.Label:</label>
+			<onleft>9</onleft>
+			<onright>9</onright>
+			<onup>8</onup>
+			<ondown>10</ondown>
+			<textureFocus>listcontrol_item_selected_small.png</textureFocus>
+				<textureNoFocus>listcontrol_item_small.png</textureNoFocus>
+      <animation effect="Fade" time="250">WindowOpen</animation>
+      <animation effect="zoom" delay="100" tween="elastic" easing="out" start="95,95" end="100,100" center="683,384" time="550">WindowOpen</animation>
+		</control>
+		
+		<control>
+			<description>OK button</description>
+			<type>button</type>
+			<id>10</id>
+		<posX>621</posX>
+		<posY>740</posY>
+		<textXOff>70</textXOff>
+		<textYOff>0</textYOff>
+			<textalign>center</textalign>
+		<textureFocus>dialog_yesno_black_button_focus.png</textureFocus>
+		<width>678</width>
+		<height>69</height>
+			<label>-</label>
+			<onleft>10</onleft>
+			<onright>10</onright>
+			<onup>9</onup>
+			<ondown>10</ondown>
+      <animation effect="Fade" time="250">WindowOpen</animation>
+      <animation effect="zoom" delay="100" tween="elastic" easing="out" start="95,95" end="100,100" center="683,384" time="550">WindowOpen</animation>
+		</control>
+		
+	</controls>
+</window>

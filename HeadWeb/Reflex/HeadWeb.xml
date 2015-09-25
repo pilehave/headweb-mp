@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+	<id>7771</id>
+	<define>#header.label:HeadWeb</define>
+	<defaultcontrol>50</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+	<controls>
+	
+		<control>
+			<id>0</id>
+			<description>background image</description>
+			<type>image</type>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>blue_gradient_background.png</texture>
+		</control>
+		
+		<control>
+			<id>0</id>
+			<description>background image</description>
+			<type>image</type>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>background_transparent.png</texture>
+		</control>
+		
+		<control>
+			<id>0</id>
+			<type>image</type>
+			<posX>0</posX>
+			<posY>87</posY>
+			<width>2000</width>
+			<height>820</height>
+			<texture>blue_white_background4.png</texture>
+		</control>
+		
+		<import>common.title.xml</import>
+		<import>common.time.xml</import>
+		
+		<control>
+			<description>text label</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>215</posX>
+			<posY>8</posY>
+			<label>#HeadWeb.UserName #HeadWeb.Balance</label>
+			<font>main_medium</font>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control>
+			<type>actiongroup</type>
+			<description>action menu</description>
+			<defaultcontrol>2</defaultcontrol>
+			<onexit>0</onexit>
+			<buttonX>0</buttonX>
+			<buttonY>0</buttonY>
+			<buttonwidth>37</buttonwidth>
+			<buttonheight>1080</buttonheight>
+			<textureFocus>-</textureFocus>
+			<width>37</width>
+			<height>1080</height>
+			<dimColor>0xFFFFFFFF</dimColor>
+			
+			<control>
+				<type>image</type>
+				<posX>0</posX>
+				<posY>67</posY>
+				<width>350</width>
+				<height>730</height>
+				<texture>Backslide2.png</texture>
+				<colorDiffuse>fffffffff</colorDiffuse>
+				<visible>!Control.HasFocus(50)</visible>
+				<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+				<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+			</control>
+			
+			<control>
+				<description>group element</description>
+				<type>group</type>
+				<posX>0</posX>
+				<posY>105</posY>
+				<layout>StackLayout(1,Vertical,true)</layout>
+				
+				<control>
+					<description>Layout</description>
+					<type>button</type>
+					<id>2</id>
+					<label>Layout</label>
+					<onleft>2</onleft>
+					<onright>50</onright>
+					<onup>17</onup>
+					<ondown>3</ondown>
+					<visible allowhiddenfocus="true">!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Best sellers</description>
+					<type>button</type>
+					<id>3</id>
+					<label>#HeadWeb.Translation.BestSellers.Label</label>
+					<onleft>3</onleft>
+					<onright>50</onright>
+					<onup>2</onup>
+					<ondown>4</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Newest</description>
+					<type>button</type>
+					<id>4</id>
+					<label>#HeadWeb.Translation.Newest.Label</label>
+					<onleft>4</onleft>
+					<onright>50</onright>
+					<onup>3</onup>
+					<ondown>5</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Genres</description>
+					<type>button</type>
+					<id>5</id>
+					<label>#HeadWeb.Translation.Genres.Label</label>
+					<onleft>5</onleft>
+					<onright>50</onright>
+					<onup>4</onup>
+					<ondown>6</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Search</description>
+					<type>button</type>
+					<id>6</id>
+					<label>#HeadWeb.Translation.Search.Label</label>
+					<onleft>6</onleft>
+					<onright>50</onright>
+					<onup>5</onup>
+					<ondown>7</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>My rentals</description>
+					<type>button</type>
+					<id>7</id>
+					<label>#HeadWeb.Translation.MyRentals.Label</label>
+					<onleft>7</onleft>
+					<onright>50</onright>
+					<onup>6</onup>
+					<ondown>8</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Favorites</description>
+					<type>button</type>
+					<id>8</id>
+					<label>#HeadWeb.Translation.Favorites.Label</label>
+					<onleft>8</onleft>
+					<onright>50</onright>
+					<onup>7</onup>
+					<ondown>9</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Only free movies</description>
+					<type>button</type>
+					<id>9</id>
+					<label>#HeadWeb.Translation.OnlyFreeMovies.Label</label>
+					<onleft>9</onleft>
+					<onright>50</onright>
+					<onup>8</onup>
+					<ondown>10</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Only HD movies</description>
+					<type>togglebutton</type>
+					<id>10</id>
+					<label>#HeadWeb.Translation.OnlyHDMovies.Label</label>
+					<onleft>10</onleft>
+					<onright>50</onright>
+					<onup>9</onup>
+					<ondown>11</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Log out</description>
+					<type>button</type>
+					<id>11</id>
+					<label>#HeadWeb.Translation.LogOut.Label</label>
+					<onleft>11</onleft>
+					<onright>50</onright>
+					<onup>10</onup>
+					<ondown>12</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+				<control>
+					<description>Log in</description>
+					<type>button</type>
+					<id>12</id>
+					<label>#HeadWeb.Translation.LogIn.Label</label>
+					<onleft>12</onleft>
+					<onright>50</onright>
+					<onup>11</onup>
+					<ondown>2</ondown>
+					<visible>!Control.HasFocus(50)</visible>
+					<animation effect="slide" time="350" start="-350,0" tween="quadratic" easing="out">visible</animation>
+					<animation effect="slide" time="250" end="-350,0" tween="quadratic" easing="in">hidden</animation>
+				</control>
+				
+			</control>
+			
+		</control>
+		
+		<import>common.window.xml</import>
+		
+		<control>
+			<id>0</id>
+			<type>image</type>
+			<posX>90</posX>
+			<posY>175</posY>
+			<width>430</width>
+			<height>635</height>
+			<texture>video_poster_shadow_large.png</texture>
+			<visible>facadeview.list|facadeview.album</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control>
+			<id>0</id>
+			<type>image</type>
+			<description>Missing coverart</description>
+			<posX>100</posX>
+			<posY>185</posY>
+			<width>410</width>
+			<height>615</height>
+			<texture mask="video_poster_mask_large.png">missing_coverart_video.png</texture>
+			<visible>[facadeview.list|facadeview.album]+!control.hasthumb(500)</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control>
+			<id>500</id>
+			<type>image</type>
+			<description>Coverart</description>
+			<posX>100</posX>
+			<posY>185</posY>
+			<width>410</width>
+			<height>615</height>
+			<texture mask="video_poster_mask_large.png">#selectedthumb</texture>
+			<visible>facadeview.list</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control>
+			<type>imagelist</type>
+			<id>0</id>
+			<posX>192</posX>
+			<posY>155</posY>
+			<width>230</width>
+			<height>21</height>
+			<textureWidth>23</textureWidth>
+			<textureHeight>19</textureHeight>
+			<subitems>
+			<subitem>stargrey.png</subitem>
+			<subitem>starwhite.png</subitem></subitems>
+			<orientation>horizontal</orientation>
+			<percentage>#rating</percentage>
+			<imagesToDraw>10</imagesToDraw>
+			<visible>facadeview.list</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control>
+			<id>15</id>
+			<description>Description1</description>
+			<type>textboxscrollup</type>
+			<label>#plot</label>
+			<posX>635</posX>
+			<posY>900</posY>
+			<width>1200</width>
+			<height>165</height>
+			<seperator>----------------------------------------------------------------------------------------------</seperator>
+			<font>player_small</font>
+			<scrollStartDelaySec>10</scrollStartDelaySec>
+			<visible>facadeview.list</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control>
+			<description>group element</description>
+			<type>group</type>
+			<visible>Control.HasFocus(50)</visible>
+			<dimColor>0xFFFFFFFF</dimColor>
+			
+			<control>
+				<id>0</id>
+				<type>image</type>
+				<posX>0</posX>
+				<posY>354</posY>
+				<texture>slide_button.png</texture>
+				<visible>[facadeview.list|facadeview.smallicons|facadeview.largeicons]+Control.HasFocus(50)</visible>
+				<animation effect="slide" start="-60,0" end="0,0" tween="quadratic" easing="in" time="400" delay="0">Visible</animation>
+				<animation effect="slide" start="0,0" end="-60,0" tween="quadratic" easing="in" time="400" delay="0">Hidden</animation>
+				<animation effect="slide" start="-60,0" end="0,0" tween="quadratic" easing="in" time="400" delay="500">WindowOpen</animation>
+				<animation effect="slide" start="0,0" end="-60,0" tween="quadratic" easing="in" time="400" delay="200">WindowClose</animation>
+			</control>
+			
+			<control>
+				<id>0</id>
+				<type>image</type>
+				<posX>885</posX>
+				<posY>0</posY>
+				<texture>slide_button_up.png</texture>
+				<visible>[facadeview.filmstrip|facadeview.coverflow]+Control.HasFocus(50)</visible>
+				<animation effect="slide" start="0,-60" end="0,0" tween="quadratic" easing="in" time="400" delay="0">Visible</animation>
+				<animation effect="slide" start="0,0" end="0,-60" tween="quadratic" easing="in" time="400" delay="0">Hidden</animation>
+				<animation effect="slide" start="0,-60" end="0,0" tween="quadratic" easing="in" time="400" delay="500">WindowOpen</animation>
+				<animation effect="slide" start="0,0" end="0,-60" tween="quadratic" easing="in" time="400" delay="200">WindowClose</animation>
+			</control>
+			
+		</control>
+		
+		<import>common.facade.video.xml</import>
+		<import>common.overlay.xml</import>
+		
+	</controls>
+</window>
