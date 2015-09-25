@@ -1,0 +1,3310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage />
+        <UpdateUrl />
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>70</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus />
+        <OnlineLocation />
+        <ReleaseDate>2011-11-03T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Config" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>80</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.80.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-10T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Config" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>82</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.82.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-10T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Config" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>84</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.84.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-10T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Config" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>89</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.89.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-13T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.SkinEngine" />
+                <SubSystemItem Name="MP.Config" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>91</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.91.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-13T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>96</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.96.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-15T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>99</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.99.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-15T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>101</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.101.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-16T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>114</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.114.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-18T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>116</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.116.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-19T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>119</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.119.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-20T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>123</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.0.123.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-21T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>1</Build>
+          <Revision>123</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.1.123.mpe1</OnlineLocation>
+        <ReleaseDate>2011-11-21T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Mustayaluca">
+            <DisplayName>Mustayaluca</DisplayName>
+            <DefaulChecked>false</DefaulChecked>
+            <Description>Mustayaluca</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>1</Build>
+          <Revision>133</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.1.133.mpe1</OnlineLocation>
+        <ReleaseDate>2011-12-06T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Mustayaluca">
+            <DisplayName>Mustayaluca</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Mustayaluca</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Language files">
+            <DisplayName>Language files</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Language files</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>1</Build>
+          <Revision>140</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.1.140.mpe1</OnlineLocation>
+        <ReleaseDate>2011-12-20T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Mustayaluca">
+            <DisplayName>Mustayaluca</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Mustayaluca</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Language files">
+            <DisplayName>Language files</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Language files</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>1</Build>
+          <Revision>148</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.1.148.mpe1</OnlineLocation>
+        <ReleaseDate>2012-04-27T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Mustayaluca">
+            <DisplayName>Mustayaluca</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Mustayaluca</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Language files">
+            <DisplayName>Language files</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Language files</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>1</Build>
+          <Revision>150</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.1.150.mpe1</OnlineLocation>
+        <ReleaseDate>2012-05-05T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="DefaultWide">
+            <DisplayName>DefaultWide</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>DefaultWide</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Reflex">
+            <DisplayName>Reflex</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Reflex</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Configure plugin">
+            <DisplayName>Configure plugin</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Configure plugin</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Avalon">
+            <DisplayName>Avalon</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Avalon</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Plugins">
+            <DisplayName>Plugins</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Plugins</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="StreamedMP">
+            <DisplayName>StreamedMP</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>StreamedMP</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Fidelity 1.4">
+            <DisplayName>Fidelity 1.4</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Fidelity 1.4</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Maya">
+            <DisplayName>Maya</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Maya</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Mustayaluca">
+            <DisplayName>Mustayaluca</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Mustayaluca</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Language files">
+            <DisplayName>Language files</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Language files</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items>
+          <DependencyItem>
+            <Type>MediaPortal</Type>
+            <Id />
+            <MinVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MinVersion>
+            <MaxVersion>
+              <Major>1</Major>
+              <Minor>1</Minor>
+              <Build>6</Build>
+              <Revision>27644</Revision>
+            </MaxVersion>
+            <WarnOnly>false</WarnOnly>
+            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <Name>MediaPortal</Name>
+          </DependencyItem>
+        </Items>
+      </Dependencies>
+      <PluginDependencies>
+        <Items>
+          <PluginDependencyItem AssemblyName="HeadWeb.dll">
+            <CompatibleVersion>
+              <Items>
+                <CompatibleVersionItem>
+                  <MinRequiredVersion>1.1.6.27644</MinRequiredVersion>
+                  <DesignedForVersion>1.1.6.27644</DesignedForVersion>
+                </CompatibleVersionItem>
+              </Items>
+            </CompatibleVersion>
+            <SubSystemsUsed>
+              <Items>
+                <SubSystemItem Name="MP.Config" />
+                <SubSystemItem Name="MP.SkinEngine" />
+              </Items>
+            </SubSystemsUsed>
+          </PluginDependencyItem>
+        </Items>
+      </PluginDependencies>
+      <GeneralInfo>
+        <Name>HeadWeb</Name>
+        <Id>1b96cc47-e0c8-4141-84b3-5128397aa7d7</Id>
+        <Author>pilehave</Author>
+        <HomePage>http://code.google.com/p/headweb-mp/</HomePage>
+        <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/headweb-online-movie-rental-nordic-countries-102118/</ForumPage>
+        <UpdateUrl>http://headweb-mp.googlecode.com/svn/trunk/headweb_update.xml</UpdateUrl>
+        <Version>
+          <Major>0</Major>
+          <Minor>0</Minor>
+          <Build>1</Build>
+          <Revision>155</Revision>
+        </Version>
+        <ExtensionDescription />
+        <VersionDescription />
+        <DevelopmentStatus>Stable</DevelopmentStatus>
+        <OnlineLocation>http://headweb-mp.googlecode.com/files/HeadWeb0.0.1.155.mpe1</OnlineLocation>
+        <ReleaseDate>2012-06-17T20:14:30</ReleaseDate>
+        <Tags />
+        <Location>C:\Users\Mikkel\Desktop\MPEI files\HeadWeb[Version].mpe1</Location>
+        <Params>
+          <Items>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+      <IsSkin>false</IsSkin>
+    </PackageClass>
+  </Items>
+</ExtensionCollection>

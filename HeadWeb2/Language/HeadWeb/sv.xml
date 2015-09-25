@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- HeadWeb translation file -->
+<!-- Swedish (sv) -->
+<!-- Contributed by JBN. june 2012 -->
+<strings>
+
+    <!-- A  -->
+	<string Field="AddToFavorites">Lägg till favoriter</string>
+	<string Field="AddToFavoritesText">Filmen "{0}" las till dina favoriter</string>
+	<string Field="AreYouSure">Är du säker att du vill hyra denna film?</string>
+    
+    <!-- C  -->
+	
+	<!-- B  -->
+	<string Field="BestSellers">Best sellers</string>
+	<string Field="Buffered">buffrat</string>
+    
+    <!-- D  -->
+
+    <!-- E  -->
+	<string Field="Expired">Expired</string>
+	<string Field="EnterPinCode">Mata in pinkod</string>
+	<string Field="EnterSMSCode">Mata in SMS kod</string>
+	<string Field="EnterUsername">Mata in användarnamn</string>
+    <string Field="EnterPassword">Mata in lösenord</string>
+	
+    <!-- F  -->
+	<string Field="Favorites">Favoriter</string>
+	
+    <!-- G  -->
+	<string Field="Genres">Genrer</string>
+
+    <!-- H  -->
+
+    <!-- I  -->
+	<string Field="InvalidUsernameOrPassword">Ogiltigt användarnamn eller lösenord</string>
+	
+    <!-- L  -->
+	<string Field="LogInToHeadWeb">Logga in på HeadWeb</string>
+	<string Field="LogIn">Login</string>
+	<string Field="LogOut">Logout</string>
+	
+    <!-- M  -->
+	<string Field="MyRentals">Mina hyrfilmer</string>
+	<string Field="MovieWillStart">Filmen startar när buffringen är klar</string>
+
+    <!-- N  -->
+	<string Field="NotLoggedIn">Ej inloggad</string>
+	<string Field="Newest">Nyheter</string>
+
+    <!-- O  -->
+	<string Field="OnlyFreeMovies">Enbart gratisfilmer</string>
+	<string Field="OnlyHDMovies">Enbart HD-filmer</string>
+	
+    <!-- P  -->
+	<string Field="Password">Lösenord</string>
+	<string Field="PinCode">Pinkod</string>
+	<string Field="PinCodeIncorrect">Ogiltig Pinkod</string>
+	<string Field="Price">Pris</string>
+
+    <!-- R  -->
+	<string Field="RateMovie">Betygsätt film</string>
+	<string Field="RentMovie">Hyr film</string>
+	<string Field="RentMovieBySMS">Hyr film via SMS</string>
+	<string Field="RemoveFromFavorites">Radera från favoriter</string>
+	<string Field="RemoveFromFavoritesText">Filme "{0}" togs bort från dina favoriter</string>
+	<string Field="RentalFailed">Misslyckades med att hyra filmen</string>
+	<string Field="RentalSuccessful">Lyckades hyra filmen</string>
+
+    <!-- S  -->
+	<string Field="Search">Sök</string>
+	<string Field="Set">Set</string>
+	<string Field="SMSPurchase1">SMS köp</string>
+	<string Field="SMSPurchase2">Du har redan köpt denna film,</string>
+	<string Field="SMSPurchase3">för att aktivera, mata in koden</string>
+	<string Field="SMSPurchase4">du fick i SMSet.</string>
+	<string Field="SMSPurchase5">SMS köp, {0}.</string>
+	<string Field="SMSPurchase6">För att köpa denna film, skicka</string>
+	<string Field="SMSPurchase7">"{0}" till nummer "{1}"</string>
+	<string Field="SMSPurchase8">Du kommer få ett SMS med en kod.</string>
+	<string Field="SelectBitrate">Välj bitrate</string>
+    
+    <!-- T -->
+	<string Field="ToPurchaseThisMovie">för att köpa denna film</string>
+	<string Field="Title">Titel</string>
+
+    <!-- U -->
+	<string Field="Username">Användarnamn</string>
+    
+    <!-- V -->
+
+    <!-- W -->
+	<string Field="WatchPreview">Se förhandsvisning</string>
+	<string Field="WatchMovie">Se film</string>
+	<string Field="WatchTrailer">Se trailer</string>
+
+    <!-- Y -->
+</strings>

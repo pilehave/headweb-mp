@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- HeadWeb translation file -->
+<!-- Norwegian (no) -->
+<!-- Note: English is the fallback for any strings not found in other languages -->
+<!-- Contributed by pilehave 22. december 2011 -->
+<strings>
+
+	<!-- A -->
+	<string Field="AddToFavorites">Legg til i favoritter</string>
+	<string Field="AddToFavoritesText">Filmen "{0}" ble lagt til dine favoritter</string>
+	<string Field="AreYouSure">Er du sikker på at du ønsker å leie denne filmen?</string>
+	    
+	<!-- C -->
+	
+	<!-- B -->
+	<string Field="BestSellers">Best selgere</string>
+	<string Field="Buffered">bufret</string>
+	    
+	<!-- D -->
+	
+	<!-- E -->
+	<string Field="Expired">Utløpt</string>
+	<string Field="EnterPinCode">Tast pinkode</string>
+	<string Field="EnterSMSCode">Tast SMS kode</string>
+	
+	<!-- F -->
+	<string Field="Favorites">Favoritter</string>
+	
+	<!-- G -->
+	<string Field="Genres">Sjangre</string>
+	
+	<!-- H -->
+	
+	<!-- I -->
+	<string Field="InvalidUsernameOrPassword">Ugyldig brukernavn eller passord</string>
+	
+	<!-- L -->
+	<string Field="LogInToHeadWeb">Logg inn til Headweb</string>
+	<string Field="LogIn">Login</string>
+	<string Field="LogOut">Logg ut</string>
+	
+	<!-- M -->
+	<string Field="MyRentals">Min utleie</string>
+	<string Field="MovieWillStart">Movie vil starte når buffering er gjort</string>
+	
+	<!-- N -->
+	<string Field="NotLoggedIn">Ikke logget inn</string>
+	<string Field="Newest">Nyeste</string>
+	
+	<!-- O -->
+	<string Field="OnlyFreeMovies">Kun gratis filmer</string>
+	<string Field="OnlyHDMovies">Kun HD-filmer</string>
+	
+	<!-- P -->
+	<string Field="Password">Passord</string>
+	<string Field="PinCode">Pinkode</string>
+	<string Field="PinCodeIncorrect">Pinkode feil</string>
+	<string Field="Price">Pris</string>
+	
+	<!-- R -->
+	<string Field="RateMovie">Pris film</string>
+	<string Field="RentMovie">Lei film</string>
+	<string Field="RentMovieBySMS">Lei film av SMS</string>
+	<string Field="RemoveFromFavorites">Fjern fra favoritter</string>
+	<string Field="RemoveFromFavoritesText">Filmen "{0}" ble fjernet fra favorittene</string>
+	<string Field="RentalFailed">Leie feilet</string>
+	<string Field="RentalSuccessful">Leie vellykket</string>
+	
+	<!-- S -->
+	<string Field="Search">Søk</string>
+	<string Field="Set">Skriv</string>
+	<string Field="SMSPurchase1">SMS kjøb</string>
+	<string Field="SMSPurchase2">du allerede har kjøpt denne filmen,</string>
+	<string Field="SMSPurchase3">for å aktivere den, angi nøkkelen</string>
+	<string Field="SMSPurchase4">du mottok i SMS.</string>
+	<string Field="SMSPurchase5">SMS kjøb, {0}.</string>
+	<string Field="SMSPurchase6">For å kjøpe denne filmen, send</string>
+	<string Field="SMSPurchase7">"{0}" til nummeret "{1}"</string>
+	<string Field="SMSPurchase8">Du vil motta en SMS med en kode.</string>
+	<string Field="SelectBitrate">Velg bitrate</string>
+	    
+	<!-- T -->
+	<string Field="ToPurchaseThisMovie">For å kjøpe denne filmen</string>
+	<string Field="Title">Tittel</string>
+	
+	<!-- U -->
+	<string Field="Username">Brukernavn</string>
+	    
+	<!-- V -->
+	
+	<!-- W -->
+	<string Field="WatchPreview">Se forhåndsvisning</string>
+	<string Field="WatchMovie">Se film</string>
+	<string Field="WatchTrailer">Se trailer</string>
+	
+	<!-- Y -->
+</strings>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+	<id>7770</id>
+	<defaultcontrol>2</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+	<controls>
+	
+		<import>common.dialog.xml</import>
+		
+		<control>
+			<description>OK button</description>
+			<type>button</type>
+			<id>10</id>
+			<posX>810</posX>
+			<posY>855</posY>
+			<textalign>center</textalign>
+			<textXOff>0</textXOff>
+			<textYOff>0</textYOff>
+			<width>300</width>
+			<label>-</label>
+			<onleft>10</onleft>
+			<onright>10</onright>
+			<onup>10</onup>
+			<ondown>10</ondown>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<animation effect="slide" start="0,150" end="0,0" tween="quadratic" easing="in" time="200" delay="0">WindowOpen</animation>
+		</control>
+		
+	</controls>
+</window>
