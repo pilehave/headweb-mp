@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+	<id>7772</id>
+	<define>#header.label:HeadWeb</define>
+	<defaultcontrol>2</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<define>#useSelectedFanart:Yes</define>
+	<controls>
+	
+		<control>
+			<description>background image</description>
+			<type>image</type>
+			<id>1</id>
+			<width>1920</width>
+			<height>1080</height>
+		</control>
+
+		<import>common.video.fanart.xml</import>
+
+		<control>
+			<description>Backdrop Overlay</description>
+			<type>image</type>
+			<id>0</id>
+			<posX>0</posX>
+			<posY>0</posY>
+			<width>1925</width>
+			<height>1085</height>
+			<texture>overlay_background.png</texture>
+		</control>
+
+		<control>
+			<description>Backdrop Overlay - Details View</description>
+			<type>image</type>
+			<id>0</id>
+			<posX>0</posX>
+			<posY>0</posY>
+			<width>1925</width>
+			<height>1085</height>
+			<texture>overlay_imdb.png</texture>
+		</control>
+		
+		<control>
+		<description>group element</description>
+		<type>group</type>
+		<visible>string.equals(#HeadWeb.IsBuffering, true) + !player.hasmedia</visible>
+		<animation effect="slide" time="450" start="0,-41" reversible="false">visible</animation>
+		<animation effect="slide" time="450" end="0,-41" reversible="false">hidden</animation>
+		<posX>0</posX>
+		<posY>0</posY>
+		<dimColor>ffffffff</dimColor>
+		
+			<control>
+				<type>image</type>
+				<id>0</id>
+				<posX>740</posX>
+				<posY>0</posY>
+				<width>440</width>
+				<height>41</height>
+				<texture>header_bg.png</texture>
+			</control>
+			
+			<control>
+				<description>Buffering Label</description>
+				<type>label</type>
+				<id>0</id>
+				<posX>740</posX>
+				<posY>23</posY>
+				<width>440</width>
+				<align>center</align>
+				<valign>middle</valign>
+				<font>main_medium</font>
+				<label>#HeadWeb.buffered % #HeadWeb.Translation.Buffered.Label</label>
+				<textcolor>ff666666</textcolor>
+			</control>
+		
+		</control>
+
+		<control>
+			<type>actiongroup</type>
+			<description>action menu</description>
+			<defaultcontrol>2</defaultcontrol>
+			<onexit>50</onexit>
+			<buttonX>0</buttonX>
+			<buttonY>0</buttonY>
+			<buttonwidth>106</buttonwidth>
+			<buttonheight>720</buttonheight>
+			<width>568</width>
+			<height>900</height>
+			<dimColor>00ffffff</dimColor>
+			<animation effect="slide" time="250" start="-300,0" reversible="false">visible</animation>
+			<animation effect="slide" time="250" end="-300,0" reversible="false">hidden</animation>
+			<control>
+				<type>image</type>
+				<posX>0</posX>
+				<posY>0</posY>
+				<width>400</width>
+				<height>998</height>
+				<texture>hidden_menu_short_background.png</texture>
+				<colorDiffuse>fffffffff</colorDiffuse>
+				<visible>Control.HasFocus(6)|Control.HasFocus(7)|Control.HasFocus(8)</visible>
+				<animation effect="slide" time="250" start="-300,0" reversible="false">visible</animation>
+				<animation effect="slide" time="250" end="-300,0" reversible="false">hidden</animation>
+			</control>
+			<control>
+				<type>image</type>
+				<id>1</id>
+				<posX>262</posX>
+				<posY>60</posY>
+				<width>128</width>
+				<height>128</height>
+				<texture>logo_movies.png</texture>
+				<visible>Control.HasFocus(6)|Control.HasFocus(7)|Control.HasFocus(8)</visible>
+				<animation effect="slide" time="250" start="-300,0" reversible="false">visible</animation>
+				<animation effect="slide" time="250" end="-300,0" reversible="false">hidden</animation>
+			</control>
+			<control>
+				<type>label</type>
+				<id>0</id>
+				<posX>370</posX>
+				<posY>178</posY>
+				<width>350</width>
+				<font>font3</font>
+				<label>HeadWeb</label>
+				<align>right</align>
+				<visible>Control.HasFocus(6)|Control.HasFocus(7)|Control.HasFocus(8)</visible>
+				<animation effect="slide" time="250" start="-300,0" reversible="false">visible</animation>
+				<animation effect="slide" time="250" end="-300,0" reversible="false">hidden</animation>
+			</control>
+			<control>
+				<description>group element</description>
+				<type>group</type>
+				<animation effect="slide" time="250" start="-300,0" reversible="false">visible</animation>
+				<animation effect="slide" time="250" end="-300,0" reversible="false">hidden</animation>
+				<visible>Control.HasFocus(6)|Control.HasFocus(7)|Control.HasFocus(8)</visible>
+				<control>
+					<description>button group</description>
+					<type>group</type>
+					<posX>0</posX>
+					<posY>230</posY>
+					<layout>StackLayout(0, Vertical, true)</layout>
+					<visible>Control.HasFocus(6)|Control.HasFocus(7)|Control.HasFocus(8)</visible>
+					
+			
+			<control>
+				<description>Add to favorites</description>
+				<type>button</type>
+				<id>6</id>
+				<label>#HeadWeb.Translation.AddToFavorites.Label</label>
+				<onleft>6</onleft>
+				<onright>2</onright>
+				<onup>6</onup>
+				<ondown>7</ondown>
+				<animation effect="fade" time="250">WindowOpen</animation>
+				<animation effect="fade" time="250">WindowClose</animation>
+			</control>
+			
+			<control>
+				<description>Remove from favorites</description>
+				<type>button</type>
+				<id>7</id>
+				<label>#HeadWeb.Translation.RemoveFromFavorites.Label</label>
+				<onleft>7</onleft>
+				<onright>2</onright>
+				<onup>6</onup>
+				<ondown>8</ondown>
+				<animation effect="fade" time="250">WindowOpen</animation>
+				<animation effect="fade" time="250">WindowClose</animation>
+			</control>
+			
+			<control>
+				<description>Rate movie</description>
+				<type>button</type>
+				<id>8</id>
+				<label>#HeadWeb.Translation.RateMovie.Label</label>
+				<onleft>8</onleft>
+				<onright>2</onright>
+				<onup>7</onup>
+				<ondown>8</ondown>
+				<animation effect="fade" time="250">WindowOpen</animation>
+				<animation effect="fade" time="250">WindowClose</animation>
+			</control>
+					
+			</control>
+			
+		</control>
+		
+	</control>
+		
+		<control>
+			<type>group</type>
+			<layout>StackLayout(2,Horizontal,true)</layout>
+			<description>group element</description>
+			<dimColor>ffffffff</dimColor>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+			<posX>630</posX>
+			<posY>576</posY>
+			
+			<control>
+				<description>Rent</description>
+				<type>button</type>
+				<id>2</id>
+				<label>#HeadWeb.Translation.RentMovie.Label</label>
+				<width>312</width>
+				<height>67</height>
+				<onleft>6</onleft>
+				<onright>3</onright>
+				<onup>2</onup>
+				<ondown>2</ondown>
+				<animation effect="fade" time="250">WindowOpen</animation>
+				<animation effect="fade" time="250">WindowClose</animation>
+			</control>
+			
+			<control>
+				<description>Rent</description>
+				<type>button</type>
+				<id>3</id>
+				<label>#HeadWeb.Translation.RentMovieBySMS.Label</label>
+				<width>312</width>
+				<height>67</height>
+				<onleft>2</onleft>
+				<onright>4</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+				<animation effect="fade" time="250">WindowOpen</animation>
+				<animation effect="fade" time="250">WindowClose</animation>
+			</control>
+			
+			<control>
+				<description>Preview</description>
+				<type>button</type>
+				<id>4</id>
+				<label>#HeadWeb.Translation.WatchPreview.Label</label>
+				<width>312</width>
+				<height>67</height>
+				<onleft>3</onleft>
+				<onright>5</onright>
+				<onup>4</onup>
+				<ondown>4</ondown>
+				<animation effect="fade" time="250">WindowOpen</animation>
+				<animation effect="fade" time="250">WindowClose</animation>
+			</control>
+			
+			<control>
+				<description>Watch trailer</description>
+				<type>button</type>
+				<id>5</id>
+				<label>#HeadWeb.Translation.WatchTrailer.Label</label>
+				<width>312</width>
+				<height>67</height>
+				<onleft>4</onleft>
+				<onright>5</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+				<animation effect="fade" time="250">WindowOpen</animation>
+				<animation effect="fade" time="250">WindowClose</animation>
+			</control>
+			
+		</control>
+		
+		<control Style="Time">
+			<description>text label</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>70</posX>
+			<posY>8</posY>
+			<label>#HeadWeb.UserName: #HeadWeb.Balance</label>
+		</control>
+		
+		<control Style="BigTitle">
+			<description>Movie Title</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>70</posX>
+			<posY>45</posY>
+			<width>1220</width>
+			<label>#HeadWeb.MoviePrice - #HeadWeb.MovieName</label>
+			<visible>!player.hasmedia</visible>
+			<animation effect="fade" time="200">visiblechange</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
+		</control>
+
+		<control Style="Time">
+			<description>Date</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>70</posX>
+			<posY>120</posY>
+			<label>#date / #time</label>
+			<animation effect="fade" time="200">visiblechange</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
+		</control>
+
+		<control>
+			<id>0</id>
+			<type>imagelist</type>
+			<posX>1500</posX>
+			<posY>810</posY>
+			<width>230</width>
+			<height>21</height>
+			<textureWidth>23</textureWidth>
+			<textureHeight>19</textureHeight>
+			<subitems>
+			<subitem>stargrey.png</subitem>
+			<subitem>starwhite.png</subitem></subitems>
+			<orientation>horizontal</orientation>
+			<align>left</align>
+			<percentage>#HeadWeb.MovieRating</percentage>
+			<imagesToDraw>10</imagesToDraw>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control Style="BigTitleColourSmall">
+			<description>Genres</description>
+			<type>label</type>
+			<label>#genre</label>
+			<id>0</id>
+			<posX>660</posX>
+			<posY>518</posY>
+			<width>1240</width>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control Style="ListTitle">
+			<description>Director label</description>
+			<type>label</type>
+			<label>199</label>
+			<id>0</id>
+			<posX>875</posX>
+			<posY>318</posY>
+			<width>180</width>
+			<align>right</align>
+			<visible>!string.equals(#director,)</visible>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control Style="DetailText">
+			<description>Director value</description>
+			<type>label</type>
+			<label>#director</label>
+			<id>0</id>
+			<posX>925</posX>
+			<posY>318</posY>
+			<width>630</width>
+			<visible>!string.equals(#director,)</visible>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control Style="BigTitleColour">
+			<description>Year value</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>660</posX>
+			<posY>235</posY>
+			<width>840</width>
+			<label>#year</label>
+			<visible>!string.equals(#year,)</visible>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control Style="BigTitleColour">
+			<description>Runtime value</description>
+			<type>label</type>
+			<id>0</id>
+			<posX>815</posX>
+			<posY>235</posY>
+			<width>840</width>
+			<visible>!string.equals(#runtime,)</visible>
+			<label>#runtime #SkinTranslation.Translations.time.minutes.Label</label>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control Style="DetailTextDroid">
+			<description>Summary</description>
+			<type>textboxscrollup</type>
+			<id>0</id>
+			<posX>650</posX>
+			<posY>662</posY>
+			<width>1200</width>
+			<height>240</height>
+			<seperator>-----------------------------------------------------------------------------------</seperator>
+			<scrollStartDelaySec>5</scrollStartDelaySec>
+			<label>#HeadWeb.MoviePlot</label>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control Style="ListTitle">
+			<description>Actors label</description>
+			<type>label</type>
+			<label>#(string.rtrim(L(206),':')):</label>
+			<id>0</id>
+			<posX>875</posX>
+			<posY>372</posY>
+			<width>180</width>
+			<align>right</align>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control Style="DetailText">
+			<description>Actors value</description>
+			<id>0</id>
+			<label>#HeadWeb.MovieActors</label>
+			<type>textboxscrollup</type>
+			<posX>925</posX>
+			<posY>372</posY>
+			<width>800</width>
+			<height>140</height>
+			<seperator>-----------------------------------------------------------------------------------</seperator>
+			<lineSpacing>0.95</lineSpacing>
+			<scrollStartDelaySec>5</scrollStartDelaySec>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+		
+		<control>
+			<description>Default Cover Art</description>
+			<type>image</type>
+			<id>1</id>
+			<posX>55</posX>
+			<posY>195</posY>
+			<width>555</width>
+			<height>790</height>
+			<texture>poster_thumb_background_reflect.png</texture>
+			<visible>Control.HasFocus(2)|Control.HasFocus(3)|Control.HasFocus(4)|Control.HasFocus(5)</visible>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control>
+			<description>Cover Art</description>
+			<type>image</type>
+			<id>500</id>
+			<posX>100</posX>
+			<posY>240</posY>
+			<width>464</width>
+			<height>670</height>
+			<texture>#HeadWeb.MovieThumb</texture>
+			<visible>Control.HasFocus(2)|Control.HasFocus(3)|Control.HasFocus(4)|Control.HasFocus(5)</visible>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<control>
+			<description>Default Cover Overlay</description>
+			<type>image</type>
+			<id>0</id>
+			<posX>55</posX>
+			<posY>195</posY>
+			<width>555</width>
+			<height>790</height>
+			<visible>Control.HasFocus(2)|Control.HasFocus(3)|Control.HasFocus(4)|Control.HasFocus(5)</visible>
+			<texture>poster_thumb_background_overlay_reflect.png</texture>
+			<animation effect="fade" time="250">visiblechange</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control>
+
+		<import>common.overlay.xml</import>
+
+	</controls>
+</window>

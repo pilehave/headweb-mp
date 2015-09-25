@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+  <id>7778</id>
+  <defaultcontrol>8</defaultcontrol>
+  <allowoverlay>yes</allowoverlay>
+  <controls>
+    <control>
+      <description>group element</description>
+      <type>group</type>
+      <dimColor>ffffffff</dimColor>
+      <animation effect="fade" time="150">WindowOpen</animation>
+      <animation effect="zoom" delay="100" tween="elastic" easing="out" start="95,95" end="100,100" center="960,540" time="300">WindowOpen</animation>
+      <control>
+        <type>image</type>
+        <id>0</id>
+        <width>1280</width>
+        <height>720</height>
+        <texture>black.png</texture>
+        <colordiffuse>90ffffff</colordiffuse>
+        <animation effect="fade" time="200">windowopen</animation>
+      </control>
+      <control>
+        <type>image</type>
+        <id>0</id>
+        <posX>375</posX>
+        <posY>228</posY>
+        <width>532</width>
+        <height>23</height>
+        <texture>dialogtop.png</texture>
+        <colordiffuse>eeffffff</colordiffuse>
+        <animation effect="fade" time="200">windowopen</animation>
+      </control>
+      <control>
+        <type>image</type>
+        <id>0</id>
+        <posX>375</posX>
+        <posY>251</posY>
+        <width>532</width>
+        <height>180</height>
+        <texture>dialogmiddle.png</texture>
+        <colordiffuse>eeffffff</colordiffuse>
+        <animation effect="fade" time="200">windowopen</animation>
+      </control>
+      <control>
+        <type>image</type>
+        <id>0</id>
+        <posX>375</posX>
+        <posY>430</posY>
+        <width>532</width>
+        <height>23</height>
+        <texture>dialogbottom.png</texture>
+        <colordiffuse>eeffffff</colordiffuse>
+        <animation effect="fade" time="200">windowopen</animation>
+      </control>
+      <control>
+        <description>dialog Heading</description>
+        <type>label</type>
+        <id>0</id>
+        <posX>405</posX>
+        <posY>250</posY>
+        <width>470</width>
+        <label>HeadWeb login</label>
+        <font>mediastream11tc</font>
+        <textcolor>White</textcolor>
+        <align>left</align>
+        <animation effect="fade" time="200">windowopen</animation>
+      </control>
+      <control>
+        <description>Username txt</description>
+        <type>label</type>
+        <id>0</id>
+        <posX>405</posX>
+        <posY>300</posY>
+        <width>200</width>
+        <label>#HeadWeb.Translation.Username.Label:</label>
+      </control>
+      <control>
+        <description>Username value</description>
+        <type>label</type>
+        <id>0</id>
+        <posX>600</posX>
+        <posY>300</posY>
+        <width>250</width>
+        <label>#HeadWeb.Login.UserName</label>
+        <font>player_medium</font>
+      </control>
+      <control>
+        <description>Set username button</description>
+        <type>button</type>
+        <id>8</id>
+        <posX>750</posX>
+        <posY>300</posY>
+        <textalign>center</textalign>
+        <textureFocus>dialogbigbuttonfo.png</textureFocus>
+        <textureNoFocus>dialogbigbuttonnf.png</textureNoFocus>
+        <textXOff>1</textXOff>
+        <textYOff>1</textYOff>
+        <width>100</width>
+        <label>#HeadWeb.Translation.Set.Label</label>
+        <onleft>8</onleft>
+        <onright>8</onright>
+        <onup>8</onup>
+        <ondown>9</ondown>
+      </control>
+      <control>
+        <description>Password txt</description>
+        <type>label</type>
+        <id>0</id>
+        <posX>405</posX>
+        <posY>350</posY>
+        <width>200</width>
+        <label>#HeadWeb.Translation.Password.Label:</label>
+      </control>
+      <control>
+        <description>Password value</description>
+        <type>label</type>
+        <id>0</id>
+        <posX>600</posX>
+        <posY>350</posY>
+        <width>250</width>
+        <label>#HeadWeb.Login.Password</label>
+        <font>player_medium</font>
+      </control>
+      <control>
+        <description>Set password button</description>
+        <type>button</type>
+        <id>9</id>
+        <posX>750</posX>
+        <posY>350</posY>
+        <textalign>center</textalign>
+        <textureFocus>dialogbigbuttonfo.png</textureFocus>
+        <textureNoFocus>dialogbigbuttonnf.png</textureNoFocus>
+        <textXOff>1</textXOff>
+        <textYOff>1</textYOff>
+        <width>100</width>
+        <label>#HeadWeb.Translation.Set.Label</label>
+        <onleft>9</onleft>
+        <onright>9</onright>
+        <onup>8</onup>
+        <ondown>10</ondown>
+      </control>
+      <control>
+        <description>OK button</description>
+        <type>button</type>
+        <id>10</id>
+        <font>mediastream11tc</font>
+        <textureFocus>dialogbigbuttonfo.png</textureFocus>
+        <textureNoFocus>dialogbigbuttonnf.png</textureNoFocus>
+        <width>128</width>
+        <posX>574</posX>
+        <posY>390</posY>
+        <textXOff>1</textXOff>
+        <textYOff>1</textYOff>
+        <textalign>center</textalign>
+        <label>-</label>
+        <onleft>10</onleft>
+        <onright>10</onright>
+        <onup>9</onup>
+        <ondown>10</ondown>
+      </control>
+    </control>
+  </controls>
+</window>
+<!--Checksum:cf90069da546888ce726ad8279488151-->

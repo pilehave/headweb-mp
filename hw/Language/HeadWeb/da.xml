@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- HeadWeb translation file -->
+<!-- Danish (da) -->
+<!-- Note: English is the fallback for any strings not found in other languages -->
+<!-- Contributed by pilehave 19. december 2011 -->
+<strings>
+
+    <!-- A  -->
+	<string Field="AddToFavorites">Tilføj til favoritter</string>
+	<string Field="AddToFavoritesText">Filmen "{0}" blev føjet til din favoritter</string>
+	<string Field="AreYouSure">Er du sikker på at du vil leje denne film?</string>
+    
+    <!-- C  -->
+	
+	<!-- B  -->
+	<string Field="BestSellers">Mest solgte</string>
+	<string Field="Buffered">indlæst</string>
+    
+    <!-- D  -->
+
+    <!-- E  -->
+	<string Field="Expired">Udløbet</string>
+	<string Field="EnterPinCode">Indtast PIN-kode</string>
+	<string Field="EnterSMSCode">Indtast SMS-kode</string>
+	<string Field="EnterUsername">Indtast brugernavn</string>
+    <string Field="EnterPassword">Indtast adgangskode</string>
+	
+    <!-- F  -->
+	<string Field="Favorites">Favoritter</string>
+	
+    <!-- G  -->
+	<string Field="Genres">Genrer</string>
+
+    <!-- H  -->
+
+    <!-- I  -->
+	<string Field="InvalidUsernameOrPassword">Ugyldigt brugernavn eller adgangskode</string>
+	
+    <!-- L  -->
+	<string Field="LogInToHeadWeb">Log ind i HeadWeb</string>
+	<string Field="LogIn">Log ind</string>
+	<string Field="LogOut">Log ud</string>
+    <!-- M  -->
+	<string Field="MyRentals">Lejede film</string>
+	<string Field="MovieWillStart">Filmen starter automatisk om et øjeblik</string>
+
+    <!-- N  -->
+	<string Field="NotLoggedIn">Ikke logget ind</string>
+	<string Field="Newest">Nyeste</string>
+
+    <!-- O  -->
+	<string Field="OnlyFreeMovies">Kun gratis film</string>
+	<string Field="OnlyHDMovies">Kun film i HD</string>
+	
+    <!-- P  -->
+	<string Field="Password">Adgangskode</string>
+	<string Field="PinCode">PIN</string>
+	<string Field="PinCodeIncorrect">Forkert PIN-kode indtastet</string>
+	<string Field="Price">Pris</string>
+
+    <!-- R  -->
+	<string Field="RateMovie">Vurdér film</string>
+	<string Field="RentMovie">Lej film</string>
+	<string Field="RentMovieBySMS">Lej film med SMS</string>
+	<string Field="RemoveFromFavorites">Fjern fra favoritter</string>
+	<string Field="RemoveFromFavoritesText">Filmen "{0}" blev fjernet fra dine favoritter</string>
+	<string Field="RentalFailed">Leje af film mislykkedes</string>
+	<string Field="RentalSuccessful">Leje af film lykkedes</string>
+
+    <!-- S  -->
+	<string Field="Search">Søg</string>
+	<string Field="Set">Indtast</string>
+	<string Field="SMSPurchase1">SMS leje</string>
+	<string Field="SMSPurchase2">Du har allerede lejet denne film,</string>
+	<string Field="SMSPurchase3">for at aktivere den, skal du indtaste</string>
+	<string Field="SMSPurchase4">den kode du modtog i SMS'en.</string>
+	<string Field="SMSPurchase5">SMS leje, {0}.</string>
+	<string Field="SMSPurchase6">For at leje denne film, send</string>
+	<string Field="SMSPurchase7">"{0}" til nummeret "{1}"</string>
+	<string Field="SMSPurchase8">Du modtager en SMS med en kode.</string>
+	<string Field="SelectBitrate">Vælg bitrate</string>
+
+    <!-- T -->
+	<string Field="ToPurchaseThisMovie">for at leje denne film</string>
+	<string Field="Title">Titel</string>
+
+    <!-- U -->
+	<string Field="Username">Brugernavn</string>
+    
+    <!-- V -->
+
+    <!-- W -->
+	<string Field="WatchPreview">Se klip</string>
+	<string Field="WatchMovie">Se film</string>
+	<string Field="WatchTrailer">Se trailer</string>
+
+    <!-- Y -->
+
+</strings>
