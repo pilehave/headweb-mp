@@ -71,3 +71,27 @@ C:\MP Dev\HeadWeb\obj\Release\HeadWeb.HeadWebConfig.resources
 C:\MP Dev\HeadWeb\obj\Release\HeadWeb.csproj.GenerateResource.Cache
 C:\MP Dev\HeadWeb\obj\Release\HeadWeb.dll
 C:\MP Dev\HeadWeb\obj\Release\HeadWeb.pdb
+C:\mp dv\HeadWeb GIT\bin\Release\HeadWeb.dll
+C:\mp dv\HeadWeb GIT\bin\Release\HeadWeb.pdb
+C:\mp dv\HeadWeb GIT\bin\Release\AxInterop.WMPLib.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Common.GUIPlugins.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Common.Utils.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Core.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Dialogs.dll
+C:\mp dv\HeadWeb GIT\bin\Release\DirectShowLib.dll
+C:\mp dv\HeadWeb GIT\bin\Release\OnlineVideos.MediaPortal1.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Utils.dll
+C:\mp dv\HeadWeb GIT\bin\Release\log4net.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Bass.Net.dll
+C:\mp dv\HeadWeb GIT\bin\Release\taglib-sharp.dll
+C:\mp dv\HeadWeb GIT\bin\Release\CSScriptLibrary.dll
+C:\mp dv\HeadWeb GIT\bin\Release\edtftpnet-1.2.2.dll
+C:\mp dv\HeadWeb GIT\bin\Release\BassRegistration.dll
+C:\mp dv\HeadWeb GIT\bin\Release\MediaPortal.Support.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Ionic.Zip.dll
+C:\mp dv\HeadWeb GIT\bin\Release\Microsoft.WindowsAPICodePack.dll
+C:\mp dv\HeadWeb GIT\obj\Release\HeadWeb.HeadWebConfig.resources
+C:\mp dv\HeadWeb GIT\obj\Release\HeadWeb.csproj.GenerateResource.Cache
+C:\mp dv\HeadWeb GIT\obj\Release\HeadWeb.dll
+C:\mp dv\HeadWeb GIT\obj\Release\HeadWeb.pdb
